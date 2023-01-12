@@ -1,0 +1,43 @@
+body {
+  background-color: azure;
+}
+.navbar {
+  background-color: rgb(38, 219, 219);
+}
+.nav-item:hover {
+  background-color: rgb(113, 233, 233);
+}
+.tellus {
+  background-color: black;
+}
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+
+.top-heading {
+  background-color: rgb(255, 200, 99);
+}
+
+.sub-heading {
+  background-color: rgb(255, 229, 182);
+}
+
+#sub-heading {
+  background-color: rgb(250, 238, 216);
+}
+.food-icon {
+  height: 30px;
+}
+
+.food-row:hover {
+  background-color: orange;
+}
+p {
+  text-align: center;
+}
+#icon {
+  padding-top: 3%;
+  width: 30px;
+}

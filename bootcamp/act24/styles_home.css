@@ -1,0 +1,29 @@
+body,
+.accordion-button {
+  background-color: azure;
+}
+.navbar {
+  background-color: rgb(38, 219, 219);
+}
+.nav-item:hover {
+  background-color: rgb(113, 233, 233);
+}
+h5,
+p {
+  font-family: sans-serif;
+}
+.carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.container {
+  padding-top: 3%;
+}
+p {
+  padding-top: 3%;
+  text-align: center;
+}
+#icon {
+  width: 30px;
+}

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            My Webpage
+        </title>
+    </head>
+
+    <body>
+        <h1>Election Ballot</h1>
+        <form>
+            <label for="firstname">First Name: </label><br />
+            <input type="text" placeholder="ex. Wendell" style="width: 400px;" id="firstname" /><br />
+            <label>Last Name: </label><br />
+            <input type="text" placeholder="ex. Avancena" value="Avancena"/><br />
+            <label>Password: </label><br/>
+            <input type="password" placeholder="at least 1 uppercase, at least 1 number"/><br />
+            <label>Confirm password: </label><br/>
+            <input type="password" placeholder="re-enter your password"/><br />
+            <label>Email:</label><br />
+            <input type="email" placeholder="ex. avan@gmail.com"><br />
+
+            <label>Age: </label><br />
+            <input type="number" placeholder="ex. 22"><br />
+            
+            <label>Description:</label><br />
+            <textarea placeholder="ex. what you use to do" style="width: 100px;"></textarea><br />
+            <label>Upload 2x2: </label>
+            <input type="file" name="filesupload" accept="image/*" /> 
+            <label>Other input</label>
+            <input type="date"></input><br />
+            <input type="Submit" />
+        </form>
+        <h2>President</h2>
+        <form>
+            <input type="radio" name="president">San Guko</input>
+            <input type="radio" name="president">Vegita</input>
+            <input type="radio" name="president" disabled>San Gohan</input>
+        </form>
+        <h2>Vice President</h2>
+        <form>
+             <select name="dropdown">
+                <option selected disabled>Select one</option>
+                <option value="Bulma">Bulma</option>
+                <option value="Chichi">Chichi</option>
+                <option value="andriod18">Andriod 18</option>
+             </select>
+        </form>
+        <h2>Party List</h2>
+        <form>
+            <input type="checkbox" value="anakpawis" checked>Anak Pawis</input><br />
+            <input type="checkbox" value="rustompartylist">Rustom Part list</input><br />
+            <input type="checkbox" value="anakbayan">Anak Bayan</input><br />
+            <input type="button" value="Submit"></input>
+        </form>
+    </body>
+</html>

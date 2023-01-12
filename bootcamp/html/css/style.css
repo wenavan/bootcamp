@@ -1,0 +1,48 @@
+body {
+    margin: 0px; 
+    font-family: 'Comic Sans MS';
+}
+table { width: 100%;
+    text-align: center;
+    background-color: rgb(70, 130, 180);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#div1 {
+    text-align: center;
+}
+#ministries {
+    font-size: 250%; 
+    color: rgb(70, 130, 180)
+}
+#div2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end
+}
+img {
+    width: 550px; 
+    margin-top: 20px;
+    width: 350px; 
+    margin-right: 20px
+}
+.free {
+    font-size: 200%; 
+    color: rgb(70, 130, 180)
+}
+.save {
+    font-size: 200%
+}
+a {
+    color: rgb(255, 0, 216)
+}
+#div3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+footer {
+    
+}
